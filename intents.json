@@ -1,0 +1,52 @@
+{
+        "intents": [
+          {
+            "tag": "lời_chào",
+            "patterns": ["Xin chào", "Chào bạn", "Chào", "Mình cần trợ giúp", "Ai đó ở đây không?"],
+            "responses": ["Xin chào, tôi rất vui được trò chuyện với bạn!", "Chào mừng, tôi có thể giúp gì bạn?", "Chào, tôi đây. Làm thế nào tôi có thể trợ giúp bạn?"],
+            "context": [""]
+          },
+          {
+            "tag": "tạm_biệt",
+            "patterns": ["Tạm biệt", "Hẹn gặp lại", "Chào nhé", "Kết thúc cuộc trò chuyện", "Đến lần sau"],
+            "responses": ["Tạm biệt, hẹn gặp lại!", "Tạm biệt, chúc bạn một ngày tốt lành!", "Hẹn gặp lại, chào nhé!"],
+            "context": [""]
+          },
+          {
+            "tag": "du_lịch_miền_tây",
+            "patterns": ["Tôi muốn đi du lịch miền Tây", "Có những địa điểm nào đẹp ở miền Tây?", "Cho tôi một số gợi ý về du lịch miền Tây", "Điểm đến nổi tiếng ở miền Tây là gì?", "Tôi muốn lên kế hoạch đi du lịch miền Tây"],
+            "responses": ["Miền Tây của chúng ta có rất nhiều địa điểm du lịch tuyệt vời và độc đáo. Dưới đây là một số gợi ý:", "Một số địa điểm nổi tiếng và hấp dẫn ở miền Tây bao gồm:"],
+            "context": [""]
+          },
+          {
+            "tag": "điểm_đến_miền_tây",
+            "patterns": ["Điểm đến nổi tiếng ở miền Tây là gì?", "Cho tôi danh sách những địa điểm phải đến ở miền Tây", "Những địa điểm nổi tiếng ở miền Tây là gì?", "Tôi nên đi đâu khi du lịch miền Tây?"],
+            "responses": ["Dưới đây là một số địa điểm nổi tiếng và không thể bỏ lỡ khi du lịch miền Tây:", "Một số điểm đến phải ghé thăm khi đi du lịch miền Tây là:"],
+            "context": [""]
+          },
+          {
+            "tag": "điểm_đến_Long_An",
+            "patterns": ["Địa điểm du lịch nổi tiếng ở Long An", "Tôi nên đi đâu khi du lịch Long An", "Những địa điểm du lịch nổi bật ở Long An", "Danh lam thắng cảnh ở Long An"],
+            "responses": ["Một số điểm đến nổi tiếng ở Long An bao gồm:\n- Chợ nổi Bình Đức\n- Khu di tích Gò Tháp\n- Đầm Sen Vàng\n- Làng gốm Bàu Trúc\n- Vườn Quốc gia Tràm Chim"],
+            "context": [""]
+          },
+          {
+            "tag": "điểm_đến_Tiền_Giang",
+            "patterns": ["Địa điểm du lịch nổi tiếng ở Tiền Giang", "Tôi nên đi đâu khi du lịch Tiền Giang", "Những địa điểm du lịch nổi bật ở Tiền Giang", "Danh lam thắng cảnh ở Tiền Giang"],
+            "responses": ["Một số điểm đến nổi tiếng ở Tiền Giang bao gồm:\n- Cù Lao Chàm\n- Vườn Trái Cây Cái Bè\n- Chùa Vĩnh Tràng\n- Núi Bà Đen\n- Cầu Rạch Miễu"],
+            "context": [""]
+          },
+          {
+            "tag": "điểm_đến_Bến_Tre",
+            "patterns": ["Địa điểm du lịch nổi tiếng ở Bến Tre", "Tôi nên đi đâu khi du lịch Bến Tre", "Những địa điểm du lịch nổi bật ở Bến Tre", "Danh lam thắng cảnh ở Bến Tre"],
+            "responses": ["Một số điểm đến nổi tiếng ở Bến Tre bao gồm:\n- Cồn Phụng\n- Cây cầu phao Rạch Miễu\n- Vườn dừa Cồn Phụng\n- Làng Nghề Phú Đức\n- Chùa Linh Ứng"],
+            "context": [""]
+          },
+          {
+            "tag": "điểm_đến_Vĩnh_Long",
+            "patterns": ["Địa điểm du lịch nổi tiếng ở Vĩnh Long", "Tôi nên đi đâu khi du lịch Vĩnh Long", "Những địa điểm du lịch nổi bật ở Vĩnh Long", "Danh lam thắng cảnh ở Vĩnh Long"],
+            "responses": ["Một số điểm đến nổi tiếng ở Vĩnh Long bao gồm:\n- Chợ nổi Cái Bè\n- Làng gốm Phú Hòa\n- Đình Tây An\n- Cồn Phụng\n- Khu du lịch sinh thái Cồn Sơn"],
+            "context": [""]
+          }
+        ]
+}
